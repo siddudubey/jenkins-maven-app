@@ -33,7 +33,7 @@ public class ApplicationTest {
 	public void testApplicationMain() {
 		Application.main(null);
 		try {
-			assertEquals("The application has started.\r\n", outputContent.toString());
+			assertEquals("The application has started.\n", outputContent.toString());
 		}catch (AssertionError e) {
 			fail("\"message\" is not \"The application has started.\"");
 		}
